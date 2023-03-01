@@ -108,11 +108,11 @@ export default function Login(){
                         Sign In with Google <Image src={'/assets/google.svg'} width="20" height={20} ></Image>
                     </button>
                 </div>
-                <div className="input-button">
+                {/* <div className="input-button">
                     <button type='button' onClick={handleGithubSignin} className={styles.button_custom}>
                         Sign In with Github <Image src={'/assets/github.svg'} width={25} height={25}></Image>
                     </button>
-                </div>
+                </div> */}
             </form>
 
             {/* bottom */}
